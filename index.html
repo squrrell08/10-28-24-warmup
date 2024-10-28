@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SigmaVision VR Headsets</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .light-mode {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .dark-mode {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .toggle-button {
+            padding: 10px 20px;
+            margin: 20px 0;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .toggle-button:hover {
+            background-color: #0056b3;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="light-mode">
+    <div class="container">
+        <h1>SigmaVision VR Headsets</h1>
+        <button class="toggle-button" onclick="toggleMode()">Toggle Light/Dark Mode</button>
+        <img src="https://via.placeholder.com/800x400" alt="SigmaVision VR Headset">
+        <h2>Experience the Future of Virtual Reality</h2>
+        <p>The SigmaVision VR headsets combine practicality and gaming excellence, making them perfect for everyday use and immersive gaming experiences.</p>
+        <h3>Why Choose SigmaVision?</h3>
+        <ul>
+            <li>Versatile Use: Ideal for both daily tasks and gaming adventures.</li>
+            <li>Android OS: Runs on a highly moddable and customizable Android OS, similar to Meta Quest.</li>
+            <li>Customization: Tailor your VR experience with endless mods and custom ROMs.</li>
+            <li>High Performance: Enjoy smooth, high-resolution visuals and responsive controls.</li>
+        </ul>
+        <h3>Key Features</h3>
+        <ul>
+            <li>All-Day Comfort: Designed for extended use without discomfort.</li>
+            <li>Immersive Gaming: Dive into your favorite games with stunning graphics and sound.</li>
+            <li>Customizable Interface: Personalize your VR environment to suit your preferences.</li>
+            <li>Community Support: Join a vibrant community of developers and enthusiasts.</li>
+        </ul>
+        <h3>Get Yours Today</h3>
+        <p>Ready to elevate your virtual reality experience? Order your SigmaVision VR headset now!</p>
+    </div>
+    <script>
+        function toggleMode() {
+            var body = document.body;
+            body.classList.toggle("dark-mode");
+            body.classList.toggle("light-mode");
+        }
+    </script>
+</body>
+</html>
